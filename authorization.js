@@ -50,7 +50,3 @@ ReactDOM.render(
   <Contact />, 
   document.getElementById('app')
 );
-
-onSubmit={this.authorize} Should be in
-
-const login = ( <form action="#" onSubmit={this.authorize}> <input type="password" placeholder="Password"/> <input type="submit"/> </form> );
